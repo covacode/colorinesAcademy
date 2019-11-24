@@ -1,0 +1,23 @@
+@font-face {
+	font-family: 'Acumin-Concept';
+	src: url('fonts/AcuminVariableConcept.otf');
+}
+
+@font-face {
+	font-family: 'Being-Love';
+	src: url('fonts/BeingLove.otf');
+}
+
+@font-face {
+	font-family: 'Blokletters-Viltstift';
+	src: url('fonts/Blokletters-Viltstift.ttf');
+}
+
+@font-face {
+	font-family: 'DOMB-Regular';
+	src: url('fonts/DOMB.TTF');
+}
+
+.text-acumin-concept {
+	font-family: 'Acumin-Concept';
+}
