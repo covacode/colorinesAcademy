@@ -457,7 +457,7 @@ a:hover {
   }
 }
 
-/*======================================
+/*====================================== #ff6f0d
 //--//-->   NAVBAR
 ======================================*/
 
@@ -467,7 +467,7 @@ a:hover {
 
 .navbar-b {
   transition: all .5s ease-in-out;
-  background-color: transparent;
+  background-color: #ffffffbd;
   padding-top: 1.563rem;
   padding-bottom: 1.563rem;
 }
@@ -485,7 +485,7 @@ a:hover {
 
 .navbar-b.navbar-trans .nav-link,
 .navbar-b.navbar-reduce .nav-link {
-  color: #fff;
+  color: #0299a3;
   text-transform: uppercase;
   font-weight: 600;
 }
@@ -524,18 +524,18 @@ a:hover {
 }
 
 .navbar-b.navbar-trans .nav-link:before {
-  background-color: #fff;
+  background-color: #bd4285;
 }
 
 .navbar-b.navbar-trans .nav-link:hover {
-  color: #fff;
+  color: #bd4285;
 }
 
 .navbar-b.navbar-trans .show > .nav-link,
 .navbar-b.navbar-trans .active > .nav-link,
 .navbar-b.navbar-trans .nav-link.show,
 .navbar-b.navbar-trans .nav-link.active {
-  color: #fff;
+  color: #bd4285;
 }
 
 .navbar-b.navbar-reduce {
@@ -569,7 +569,7 @@ a:hover {
 }
 
 .navbar-b.navbar-reduce .navbar-toggler span {
-  background-color: #008089;
+  background-color: #bd4285;
 }
 
 .navbar-b .navbar-brand {
@@ -619,7 +619,7 @@ a:hover {
 
 .navbar-toggler span {
   display: block;
-  background-color: #fff;
+  background-color: #bd4285;
   height: 3px;
   width: 25px;
   margin-top: 4px;
