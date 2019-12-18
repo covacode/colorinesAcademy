@@ -2,9 +2,34 @@
 //--//-->   FONTS #e3e3e3
 ======================================*/
 
+/*Firma Sergio Cova*/
 @font-face {
-  font-family: "NothingYouCouldDo-Regular";
+  font-family: "covacode";
   src: url("../lib/fonts/NothingYouCouldDo-Regular.ttf");
+}
+
+/*Fuente estilo bold, sirve para dar enfasis*/
+@font-face {
+  font-family: "Acumin-Concept";
+  src: url("../lib/fonts/Acumin-Concept.otf");
+}
+
+/*fuente cursiva estilo monotipe*/
+@font-face {
+  font-family: "Being-Love";
+  src: url("../lib/fonts/Being-Love.otf");
+}
+
+/*fuente estilo caricatura*/
+@font-face {
+  font-family: "Blokletters-Viltstift";
+  src: url("../lib/fonts/Blokletters-Viltstift.ttf"); 
+}
+
+/*fuente estilo caricatura, ideal para titulos*/
+@font-face {
+  font-family: "DOMB";
+  src: url("../lib/fonts/DOMB.ttf");
 }
 
 .text-justify {
@@ -462,7 +487,7 @@ a:hover {
 ======================================*/
 
 #firma{
-  font-family: "NothingYouCouldDo-Regular";
+  font-family: "covacode";
 }
 
 .navbar-b {
