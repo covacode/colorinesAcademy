@@ -58,6 +58,12 @@
   text-transform: uppercase;
 }
 
+.title-staff{
+  color: #d9014c;
+  font-family: "DOMB";
+  text-transform: uppercase;
+}
+
 .texto-links{
   font-family: "DOMB";
   font-size: 1.3em;
