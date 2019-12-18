@@ -32,6 +32,11 @@
   src: url("../lib/fonts/DOMB.ttf");
 }
 
+.texto-links{
+  font-family: "DOMB";
+  font-size: 1.3em;
+}
+
 .text-justify {
   text-align: justify;
 }
@@ -482,9 +487,17 @@ a:hover {
   }
 }
 
-/*====================================== #ff6f0d
+/*======================================
 //--//-->   NAVBAR
 ======================================*/
+
+/*Verde Manzana: #c1d93b*/
+/*Celeste: #2db0ce*/
+/*Naranja: #fc8646*/
+/*Morado: #a1479f*/
+/*Rosado: #ef87a2*/
+/*Magenta: #d9014c*/
+/*Verde Claro: #7fc56f*/ /*.navbar-b.navbar-trans .nav-link.active */
 
 #firma{
   font-family: "covacode";
@@ -492,7 +505,7 @@ a:hover {
 
 .navbar-b {
   transition: all .5s ease-in-out;
-  background-color: #ffffffbd;
+  background-color: rgba(255, 255, 255, 0.95);
   padding-top: 1.563rem;
   padding-bottom: 1.563rem;
 }
@@ -549,7 +562,7 @@ a:hover {
 }
 
 .navbar-b.navbar-trans .nav-link:before {
-  background-color: #bd4285;
+  background-color: #ef87a2;
 }
 
 .navbar-b.navbar-trans .nav-link:hover {
@@ -571,30 +584,30 @@ a:hover {
 }
 
 .navbar-b.navbar-reduce .nav-link {
-  color: #008089;
+  color: #ef87a2;
 }
 
 .navbar-b.navbar-reduce .nav-link:before {
-  background-color: #008089;
+  background-color: #ef87a2;
 }
 
 .navbar-b.navbar-reduce .nav-link:hover {
-  color: #008089;
+  color: #ef87a2;
 }
 
 .navbar-b.navbar-reduce .show > .nav-link,
 .navbar-b.navbar-reduce .active > .nav-link,
 .navbar-b.navbar-reduce .nav-link.show,
 .navbar-b.navbar-reduce .nav-link.active {
-  color: #008089;
+  color: #ef87a2;
 }
 
 .navbar-b.navbar-reduce .navbar-brand {
-  color: #008089;
+  color: #ef87a2;
 }
 
 .navbar-b.navbar-reduce .navbar-toggler span {
-  background-color: #bd4285;
+  background-color: #ef87a2;
 }
 
 .navbar-b .navbar-brand {
@@ -644,7 +657,7 @@ a:hover {
 
 .navbar-toggler span {
   display: block;
-  background-color: #bd4285;
+  background-color: #ef87a2;
   height: 3px;
   width: 25px;
   margin-top: 4px;
