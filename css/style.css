@@ -46,6 +46,12 @@
   text-transform: uppercase;
 }
 
+.title-curriculum{
+  color: #fc8646;
+  font-family: "DOMB";
+  text-transform: uppercase;
+}
+
 .texto-links{
   font-family: "DOMB";
   font-size: 1.3em;
@@ -199,6 +205,20 @@ a:hover {
 }
 
 .overlay-mf-about {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  opacity: .7;
+}
+
+.overlay-mf-curriculum { 
+  background-color: #fc8646;
+}
+
+.overlay-mf-curriculum {
   position: absolute;
   top: 0;
   left: 0px;
