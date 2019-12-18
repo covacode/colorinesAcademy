@@ -2,6 +2,14 @@
 //--//-->   FONTS #e3e3e3
 ======================================*/
 
+/*Verde Manzana: #c1d93b*/
+/*Celeste: #2db0ce*/
+/*Naranja: #fc8646*/
+/*Morado: #a1479f*/
+/*Rosado: #ef87a2*/
+/*Magenta: #d9014c*/
+/*Verde Claro: #7fc56f*/ /*.navbar-b.navbar-trans .nav-link.active */
+
 /*Firma Sergio Cova*/
 @font-face {
   font-family: "covacode";
@@ -30,6 +38,12 @@
 @font-face {
   font-family: "DOMB";
   src: url("../lib/fonts/DOMB.ttf");
+}
+
+.title-about{
+  color: #2db0ce;
+  font-family: "DOMB";
+  text-transform: uppercase;
 }
 
 .texto-links{
@@ -180,6 +194,20 @@ a:hover {
   background-position: center center;
 }
 
+.overlay-mf-about {
+  background-color: #2db0ce;
+}
+
+.overlay-mf-about {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  opacity: .7;
+}
+
 .overlay-mf {
   background-color: #008089;
 }
@@ -270,7 +298,7 @@ a:hover {
   content: '';
   position: absolute;
   height: 3px;
-  background-color: #008089;
+  background-color: #ef87a2;
   width: 100px;
   bottom: -12px;
 }
@@ -490,15 +518,6 @@ a:hover {
 /*======================================
 //--//-->   NAVBAR
 ======================================*/
-
-/*Verde Manzana: #c1d93b*/
-/*Celeste: #2db0ce*/
-/*Naranja: #fc8646*/
-/*Morado: #a1479f*/
-/*Rosado: #ef87a2*/
-/*Magenta: #d9014c*/
-/*Verde Claro: #7fc56f*/ /*.navbar-b.navbar-trans .nav-link.active */
-
 #firma{
   font-family: "covacode";
 }
