@@ -58,6 +58,12 @@
   text-transform: uppercase;
 }
 
+.title-staff{
+  color: #d9014c;
+  font-family: "DOMB";
+  text-transform: uppercase;
+}
+
 .texto-links{
   font-family: "DOMB";
   font-size: 1.3em;
@@ -248,11 +254,11 @@ a:hover {
   opacity: .7;
 }
 
-.overlay-mf {
-  background-color: #008089;
+.overlay-mf-foot {
+  background-color: #7fc56f;
 }
 
-.overlay-mf {
+.overlay-mf-foot {
   position: absolute;
   top: 0;
   left: 0px;
