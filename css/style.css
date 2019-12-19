@@ -61,7 +61,13 @@
 .title-staff{
   color: #d9014c;
   font-family: "DOMB";
-  text-transform: uppercase;
+  text-transform: uppercase; 7fc56f
+}
+
+.title-contact{
+  color: #c1d93b;
+  font-family: "DOMB";
+  text-transform: uppercase; 
 }
 
 .texto-links{
@@ -381,12 +387,12 @@ a:hover {
   border-radius: 50%;
   line-height: 1.4;
   margin: 0 15px 0 0;
-  box-shadow: 0 0 0 3px #008089;
+  box-shadow: 0 0 0 3px #c1d93b;
   transition: all 500ms ease-in-out;
 }
 
 .socials .ico-circle:hover {
-  background-color: #008089;
+  background-color: #c1d93b;
   color: #fff;
   box-shadow: 0 0 0 3px #e3e3e3;
   transition: all 500ms ease-in-out;
@@ -411,7 +417,7 @@ a:hover {
 }
 
 .list-ico span {
-  color: #008089;
+  color: #c1d93b;
   margin-right: 10px;
 }
 
@@ -1241,6 +1247,7 @@ footer {
   text-align: center;
   color: #fff;
   padding-bottom: 4rem;
+  font-size: 3em;
 }
 
 footer .copyright {
