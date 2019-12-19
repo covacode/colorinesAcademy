@@ -153,12 +153,12 @@ h6 {
 }
 
 a {
-  color: #1e1e1e;
+  color: #000;
   transition: all 0.5s ease-in-out;
 }
 
 a:hover {
-  color: #008089;
+  color: #c1d93b;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
@@ -573,6 +573,9 @@ a:hover {
 ======================================*/
 #firma{
   font-family: "covacode";
+  text-decoration: none; 
+  color: #000;
+  font-size: 1.8em;
 }
 
 .navbar-b {
