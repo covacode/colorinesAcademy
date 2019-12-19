@@ -254,11 +254,11 @@ a:hover {
   opacity: .7;
 }
 
-.overlay-mf {
-  background-color: #008089;
+.overlay-mf-foot {
+  background-color: #7fc56f;
 }
 
-.overlay-mf {
+.overlay-mf-foot {
   position: absolute;
   top: 0;
   left: 0px;
