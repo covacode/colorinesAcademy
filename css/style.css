@@ -1,6 +1,30 @@
 /*======================================
 //--//-->   FONTS #e3e3e3
 ======================================*/
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f5f5f5;}
+
+.dropdown:hover .dropdown-content {display: block;}
 
 /*Verde Manzana: #c1d93b*/
 /*Celeste: #2db0ce*/
@@ -61,7 +85,13 @@
 .title-staff{
   color: #d9014c;
   font-family: "DOMB";
-  text-transform: uppercase;
+  text-transform: uppercase; 7fc56f
+}
+
+.title-contact{
+  color: #c1d93b;
+  font-family: "DOMB";
+  text-transform: uppercase; 
 }
 
 .texto-links{
@@ -147,12 +177,12 @@ h6 {
 }
 
 a {
-  color: #1e1e1e;
+  color: #000;
   transition: all 0.5s ease-in-out;
 }
 
 a:hover {
-  color: #008089;
+  color: #c1d93b;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
@@ -381,12 +411,13 @@ a:hover {
   border-radius: 50%;
   line-height: 1.4;
   margin: 0 15px 0 0;
-  box-shadow: 0 0 0 3px #008089;
+  box-shadow: 0 0 0 3px #c1d93b;
   transition: all 500ms ease-in-out;
+  color: #c1d93b;
 }
 
 .socials .ico-circle:hover {
-  background-color: #008089;
+  background-color: #c1d93b;
   color: #fff;
   box-shadow: 0 0 0 3px #e3e3e3;
   transition: all 500ms ease-in-out;
@@ -411,7 +442,7 @@ a:hover {
 }
 
 .list-ico span {
-  color: #008089;
+  color: #c1d93b;
   margin-right: 10px;
 }
 
@@ -491,10 +522,10 @@ a:hover {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #008089;
+  background: #c1d93b;
   color: #fff;
-  width: 44px;
-  height: 44px;
+  width: 50px;
+  height: 50px;
   text-align: center;
   line-height: 1;
   font-size: 16px;
@@ -506,7 +537,7 @@ a:hover {
 }
 
 .back-to-top i {
-  padding-top: 12px;
+  padding-top: 15px;
   color: #fff;
 }
 
@@ -529,7 +560,7 @@ a:hover {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #f2f2f2;
-  border-top: 6px solid #008089;
+  border-top: 6px solid #c1d93b;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -566,6 +597,9 @@ a:hover {
 ======================================*/
 #firma{
   font-family: "covacode";
+  text-decoration: none; 
+  color: #000;
+  font-size: 1.8em;
 }
 
 .navbar-b {
@@ -1241,6 +1275,7 @@ footer {
   text-align: center;
   color: #fff;
   padding-bottom: 4rem;
+  font-size: 3em;
 }
 
 footer .copyright {
