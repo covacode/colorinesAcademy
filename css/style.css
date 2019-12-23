@@ -43,6 +43,15 @@ img.circular {
   box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.8);
 }
 
+.box-shadow-gallery {
+  padding: 1rem;
+  position: relative;
+  background-color: #fff;
+  margin-bottom: 3rem;
+  z-index: 2;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
 /*Firma Sergio Cova*/
 @font-face {
   font-family: "covacode";
@@ -99,6 +108,12 @@ img.circular {
 
 .title-contact{
   color: #c1d93b;
+  font-family: "DOMB";
+  text-transform: uppercase; 
+}
+
+.title-gallery{
+  color: #eec101;
   font-family: "DOMB";
   text-transform: uppercase; 
 }
