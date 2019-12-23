@@ -1,5 +1,5 @@
 /*======================================
-//--//-->   FONTS #e3e3e3
+//--//-->   FONTS
 ======================================*/
 .dropdown {
   position: relative;
@@ -35,6 +35,13 @@
 /*Rosado: #ef87a2*/
 /*Magenta: #d9014c*/
 /*Verde Claro: #7fc56f*/ /*.navbar-b.navbar-trans .nav-link.active */
+
+/*Img staff*/
+img.circular {
+  border-radius: 50%;
+  border:1px;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.8);
+}
 
 /*Firma Sergio Cova*/
 @font-face {
@@ -245,7 +252,7 @@ a:hover {
 }
 
 .overlay-mf-about {
-  background-color: #2db0ce;
+  /*background-color: #2db0ce;*/
 }
 
 .overlay-mf-about {
@@ -255,11 +262,11 @@ a:hover {
   padding: 0;
   height: 100%;
   width: 100%;
-  opacity: .7;
+  /*opacity: .7;*/
 }
 
 .overlay-mf-curriculum { 
-  background-color: #fc8646;
+  /*background-color: #fc8646;*/
 }
 
 .overlay-mf-curriculum {
@@ -269,11 +276,11 @@ a:hover {
   padding: 0;
   height: 100%;
   width: 100%;
-  opacity: .7;
+ /*opacity: .7;*/
 }
 
 .overlay-mf-programs { 
-  background-color: #a1479f;
+  /*background-color: #a1479f;*/
 }
 
 .overlay-mf-programs {
@@ -283,11 +290,11 @@ a:hover {
   padding: 0;
   height: 100%;
   width: 100%;
-  opacity: .7;
+  /*opacity: .7;*/
 }
 
 .overlay-mf-foot {
-  background-color: #7fc56f;
+  /*background-color: #7fc56f;*/
 }
 
 .overlay-mf-foot {
@@ -297,7 +304,7 @@ a:hover {
   padding: 0;
   height: 100%;
   width: 100%;
-  opacity: .7;
+  /*opacity: .7;*/
 }
 
 .paralax-mf {
@@ -601,14 +608,16 @@ a:hover {
   font-family: "covacode";
   text-decoration: none; 
   color: #000;
-  font-size: 1.8em;
+  font-size: 2.3em;
+  vertical-align: middle;
 }
 
 .navbar-b {
   transition: all .5s ease-in-out;
-  background-color: rgba(255, 255, 255, 0.95);
-  padding-top: 1.563rem;
-  padding-bottom: 1.563rem;
+  background-color: rgba(255, 255, 255, 0.85);
+  /*padding-top: 1.563rem;*/
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .navbar-b.navbar-reduce {
