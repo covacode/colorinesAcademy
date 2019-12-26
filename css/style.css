@@ -38,6 +38,7 @@
 
 /*Img staff*/
 img.circular {
+  width: 15%;
   border-radius: 50%;
   border:1px;
   box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.8);
@@ -1410,6 +1411,12 @@ footer .credits a {
 @media (min-width: 577px) {
   .counter-box {
     margin-bottom: 1.8rem;
+  }
+}
+
+@media (max-width: 700px) {
+  img.circular {
+    width: 30%;
   }
 }
 
