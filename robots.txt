@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /css
+Disallow: /img/carousel
+Disallow: /img/footer
+Disallow: /img/logos
+Disallow: /img/overlay
+Disallow: /img/profile
+Disallow: /js
+Disallow: /lib
